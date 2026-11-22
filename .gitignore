@@ -1,0 +1,6 @@
+﻿bin/*.exe
+obj/
+data/pack_10/
+data/pack_20/
+data/pack_30/
+data/pack_50/
