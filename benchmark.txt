@@ -1,0 +1,4 @@
+Algoritmo: BubbleSort | Elementos: 50 | Tiempo: 0.0294 ms
+Algoritmo: SelectionSort | Elementos: 50 | Tiempo: 0.0654 ms
+Algoritmo: InsertionSort | Elementos: 50 | Tiempo: 0.0077 ms
+Algoritmo: ShellSort | Elementos: 50 | Tiempo: 0.0116 ms
