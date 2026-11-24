@@ -46,7 +46,7 @@ bool LectorID3v1::leer(const char* ruta, DatosAudio& datos) const {
     archivo.read(buffer, 128);
     if (!archivo) return false;
 
-    if (*buffer != 'T' || *(buffer + 1) != 'A' || *(buffer + 2) != 'G') return false;
+    if (buffer[0] != 'T' || buffer[1] != 'A' || buffer[2] != 'G') return false;
 
     DatosAudio temporal;
     copiarCampo(temporal.titulo, 128, buffer + 3, 30);
