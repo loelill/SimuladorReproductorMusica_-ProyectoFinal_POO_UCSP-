@@ -9,9 +9,9 @@ struct DatosAudio {
 
     DatosAudio() {
         for (int i = 0; i < 128; i++) {
-            *(titulo + i) = '\0';
-            *(artista + i) = '\0';
-            *(album + i) = '\0';
+            titulo[i] = '\0';
+            artista[i] = '\0';
+            album[i] = '\0';
         }
         anio = 0;
         duracion = 0;
